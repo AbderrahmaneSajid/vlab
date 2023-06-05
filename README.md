@@ -11,6 +11,8 @@
 
 
 
+## Getting Started
+
 1. Clone the repo
    ```sh
    git clone https://github.com/AbderrahmaneSajid/vlab.git
@@ -34,6 +36,22 @@
    cd backend
    nodemon backend
    ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
