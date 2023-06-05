@@ -11,12 +11,11 @@
 
 
 
-
-## Getting Started
-
-### Prerequisites
-
-You need first to install the modules using npm command:
+1. Clone the repo
+   ```sh
+   git clone https://github.com/AbderrahmaneSajid/vlab.git
+   ```
+2. Install the modules using npm command:
 * npm
   ```sh
   cd client
@@ -26,21 +25,7 @@ You need first to install the modules using npm command:
   cd backend
   npm install
   ```
-  
-
-### Installation
-
-
-
-1. Clone the repo
-   ```sh
-   git clone https://github.com/AbderrahmaneSajid/vlab.git
-   ```
-2. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Run the local server in `Terminal`
+3. Run the local server in `Terminal`
    ```cmd
    cd client
    npm start
