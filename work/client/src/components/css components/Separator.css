@@ -1,0 +1,13 @@
+.separator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .fa-minus {
+    font-size: 5rem; /* Adjust the font size as needed */
+    font-weight: bold; /* Make the icon bolder */
+    width: 10rem;
+  }
+  
+  

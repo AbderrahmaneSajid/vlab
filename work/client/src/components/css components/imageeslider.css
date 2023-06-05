@@ -1,0 +1,34 @@
+/* Custom CSS for the slides */
+.caroucon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 1rem
+}
+.carousel .slide img {
+    display: center;
+    width: 100%;
+    height: 30rem;
+    object-fit: cover;
+  }
+  .c
+ /* Custom CSS for the navigation arrows */
+.carousel .control-arrow {
+    font-size: 10px; /* Adjust the size of the navigation arrows */
+    color: #000; /* Set the color of the navigation arrows to black */
+    background-color: rgba(255, 255, 255, 0.7); /* Customize the background color of the navigation arrows */
+    padding: 10px; /* Adjust the padding of the navigation arrows */
+    height: 30rem;
+  }
+
+  
+  .carousel .carousel-status {
+    display: none; /* Hide the slide counter */
+
+    
+  }
+  
+  

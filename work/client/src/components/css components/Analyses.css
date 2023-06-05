@@ -1,0 +1,94 @@
+.Analyse{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #11965c;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 7rem;
+}
+ #V{
+  font-size: 2rem;
+  color: black;
+  text-align: center;
+  margin-top: 5rem;
+}
+.AnalyseTitre{
+  margin-top: 2rem;
+}
+.AnalyseTitre p{
+  color: #c4f3d3;
+ 
+}
+.AnalysePoints{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  
+}
+.TypeAnalyse{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 90%;
+    height: 90%;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+.TypeAnalyse:hover{
+  transform: scale(1.1);
+  border: 3px solid #0b633d;
+
+
+}
+.TypeAnalyse span{
+  width: 70%;
+}
+.Container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+@media (max-width: 767px) {
+  .Container {
+    flex-wrap: wrap;
+  }
+  
+  .Container img {
+    width: 100%;
+    height: 50%;
+  }
+}
+.Container span{
+  width: 90%;
+}
+.Container span h3{
+  color: black;
+}
+.Container span p{
+  text-align: start;
+  color: #6a776e;
+}
+.Image{
+  width: 50%;
+}
+img{
+  width: 90%;
+  height: 100%;
+  
+}
+#titre{
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+#titre img{
+  width: 4rem;
+}

@@ -1,0 +1,106 @@
+.books{ 
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.attribut{
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #7abea0; /* Green background color */
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns */
+    grid-gap: 10px; /* Gap between inputs */
+}
+.bu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+.delete{
+    width: 7rem;
+    height: 2rem;
+    background-color: #e72604;
+    color: #f5f5f5;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+.delete:hover{
+    background-color: #c92d12;
+}
+.update{
+    width: 7rem;
+    height: 2rem;
+    background-color: #31a606;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+.update:hover{
+    background-color: #2d840d;
+}
+.lien{
+    text-decoration: none;
+    color: #ffffff;
+}
+.aj{
+text-decoration: none;
+color: #ffffff;
+}
+.ajb{
+    width: 15rem;
+    height: rem;
+    background-color: #3B7680;
+    color: #D7F3FF;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    margin-bottom:2rem;
+    
+}
+.ajbc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.book-table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .book-table th,
+  .book-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .book-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .book-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .book-table tbody tr:hover {
+    background-color: #e6e6e6;
+  }
+  

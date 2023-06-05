@@ -1,0 +1,66 @@
+.H h1{
+  color: #2F4858;
+}
+.H{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.form {
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #11965c; /* Green background color */
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns */
+    grid-gap: 10px; /* Gap between inputs */
+  }
+  
+  .form h1,
+  .form h3 {
+    color: #fff; /* White text color */
+  }
+  
+  .form input {
+    width: 70%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff; /* White input background color */
+    color: #000; /* Black text color */
+  }
+  
+  .add {
+    width: 5rem;
+    height: 2rem;
+    background-color: #007976;
+    color: #D1FAE0;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add:hover {
+    background-color: #17586A;
+    color: #fff;
+  }
+  .buttoncont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+  }
+  .f select {
+    width: 70%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff; /* White input background color */
+    color: #000; /* Black text color */
+  }
+  
+  

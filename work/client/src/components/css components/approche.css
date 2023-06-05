@@ -1,0 +1,53 @@
+.approach {
+    padding: 50px 0;
+    text-align: center;
+    margin-bottom: 7rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  #apptitre{
+    font-size: 2.5rem;
+    color: black;
+    text-align: center;
+  }
+  
+  .steps {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 50px;
+    margin-top: 50px;
+    width: 90%;
+    margin-left: 5rem;
+    
+  }
+  
+  .step {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  .step:hover{
+    background-color: #11965c;
+  transform: scale(1.1);
+  }
+  .step:hover #steptexte{
+    color: #D1FAE0;
+  }
+  .step:hover  #steptitre {
+    color: #fff;
+  }
+  .step h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .step p {
+    font-size: 18px;
+    line-height: 1.5;
+    color:#6a776e
+
+  }
+  

@@ -1,0 +1,236 @@
+.form {
+  width: 70%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #11965c; /* Green background color */
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three columns */
+  grid-gap: 10px; /* Gap between inputs */
+}
+.form h1,
+.form h3 {
+  color: #fff; /* White text color */
+}
+
+.form input {
+  width: 70%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff; /* White input background color */
+  color: #000; /* Black text color */
+}
+.enr{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+.formButton{
+  width: 7rem;
+  height: 2rem;
+  background-color: #007976;
+  color: #D1FAE0;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+.formButton:hover{
+  background-color: #17586A;
+  color: #fff;
+}
+.enrl{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.vp{
+  text-decoration: none;
+  color: #2F4858;
+}
+.books{
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+.donn{
+  width: 70%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #7abea0; /* Green background color */
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three columns */
+  grid-gap: 10px; 
+}
+.bo{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.delete{
+  width: 7rem;
+  height: 2rem;
+  background-color: #e72604;
+  color: #f5f5f5;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+.delete:hover{
+  background-color: #c92d12;
+}
+.update{
+  width: 7rem;
+  height: 2rem;
+  background-color: #31a606;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+.update:hover{
+  background-color: #2d840d;
+}
+.anal{
+  text-decoration: none;
+  color: #ffffff;
+}
+.f select {
+  width: 70%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff; /* White input background color */
+  color: #000; /* Black text color */
+}
+
+.buttonF{display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;}
+.vlav{
+    margin-left: 3rem;
+    margin-bottom: 4rem;
+}
+.vlav h1{
+    font-size: 3rem;
+    font-weight: 850;
+    color: #A1AF9F;
+}
+.bito {
+    
+  background-color: #4caf50;
+ color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 16px;
+  cursor: pointer;
+  margin-left: 1rem;
+}
+.bito:hover{
+  background-color: #28752b;
+
+}
+.conteneur{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  margin-bottom: 2rem;
+}
+.eho{
+  padding: 8px;
+    border: 1x solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+.contetype{
+  padding: 8px;
+  border: 1x solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+.anal{
+   
+        text-decoration: none;
+      
+}
+/*.App {
+    padding: 0 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  
+}
+.books{ 
+    display: flex;
+    gap: 10px;
+}
+.book{
+    flex : 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    background-color:aquamarine ;
+}
+.delete{
+    border: border;
+    padding: 3px 6px;
+    background-color: white;
+    cursor: pointer;
+    border: 1px solid rgb(245, 191, 191);
+    color: rgb(242, 100, 100);
+}
+.update{
+    border: border;
+    padding: 3px 6px;
+    background-color: white;
+    cursor: pointer;
+    border: 1px solid rgb(204, 204, 243);
+    color: rgb(139, 139, 234);
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap : 20px;
+}
+input {
+    width: 250px;
+    padding: 10px;
+    border: 1px solid gray;
+  }
+.formButton{
+    border: none;
+    padding: 10px;
+    background-color: white;
+    background-color: lightcoral;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+*/
+
